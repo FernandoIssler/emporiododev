@@ -3,7 +3,7 @@
 /**
  * DATABASE
  */
-const CONF_DB_LIVE = ["host" => "mysql", "user" => "u948569319_lattes", "pass" => "2v*TFxP?", "database" => "u948569319_lattes"]; // produção
+const CONF_DB_LIVE = ["host" => "mysql", "user" => "u948569319_emporiododev", "pass" => "R8q@tF!8", "database" => "u948569319_emporiododev"]; // produção
 const CONF_DB_TEST = ["host" => "localhost", "user" => "root", "pass" => "", "database" => "emporiododev"]; // localhost
 
 /**
