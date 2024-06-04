@@ -141,10 +141,10 @@
 
                                     <!-- Start Product Action  -->
                                     <ul class="product-action d-flex-center mb--0">
-                                        <li class="add-to-cart"><a href="cart.html" class="axil-btn btn-bg-primary">Comprar</a>
+                                        <li class="add-to-cart"><a href="#" class="axil-btn btn-bg-primary">Comprar</a>
                                         </li>
                                         <li class="wishlist">
-                                            <a href="wishlist.html" class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a>
+                                            <a href="#" class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a>
                                         </li>
                                     </ul>
                                     <!-- End Product Action  -->
