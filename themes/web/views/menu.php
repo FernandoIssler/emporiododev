@@ -21,8 +21,8 @@
                     </div>
                     <ul class="mainmenu">
                         <li><a href="<?= url() ?>">Home</a></li>
-                        <li><a href="<?= url("/quemsomos") ?>">Quem somos</a></li>
-                        <li><a href="<?= url("/contato") ?>">Fale Conosco</a></li>
+                        <li><a href="<?= url("quemsomos") ?>">Quem somos</a></li>
+                        <li><a href="<?= url("contato") ?>">Fale Conosco</a></li>
                     </ul>
                 </nav>
                 <!-- End Mainmanu Nav -->

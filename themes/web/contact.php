@@ -75,7 +75,7 @@
                 <div class="row row--30">
                     <div class="col-lg-8">
                         <div class="contact-form">
-                            <h3 class="title mb--10">Podmeos te ajudar?</h3>
+                            <h3 class="title mb--10">Podemos te ajudar?</h3>
                             <p>Se tiver algum problema, dúvida ou sugestão pode nos mandar uma mensgem aqui.</p>
                             <form id="contact-form" method="POST" action="#" class="axil-contact-form">
                                 <div class="row row--10">

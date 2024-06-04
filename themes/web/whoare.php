@@ -79,8 +79,9 @@
                 <h2 class="title">O que todo DEV precisa!</h2>
             </div>
             <h1>Quem Somos</h1>
-            <p>Bem-vindo à <strong>Nossa Loja</strong>! Somos uma empresa dedicada a oferecer os melhores produtos e
-                serviços para nossos clientes. Fundada em 2021, nossa missão é proporcionar uma experiência de compra
+            <p>Bem-vindo à <strong><?= CONF_SITE_NAME ?></strong>! Somos uma empresa dedicada a oferecer os melhores
+                produtos e
+                serviços para nossos clientes. Fundada em 2024, nossa missão é proporcionar uma experiência de compra
                 excepcional, com foco na qualidade, inovação e satisfação do cliente.</p>
 
             <h2>Nossa Missão</h2>
@@ -108,11 +109,12 @@
                 fique por dentro das últimas novidades, promoções e lançamentos. Estamos sempre em busca de maneiras de
                 melhorar e valorizar nossos clientes.</p>
 
-            <p>Obrigado por escolher <strong>Nossa Loja</strong>. Esperamos que você tenha uma excelente experiência de
+            <p>Obrigado por escolher o <strong><?= CONF_SITE_NAME ?></strong>. Esperamos que você tenha uma excelente
+                experiência de
                 compra e que nossos produtos atendam todas as suas expectativas!</p>
 
             <p><em>Com carinho,</em></p>
-            <p><strong>Equipe Nossa Loja</strong></p>
+            <p><strong>Equipe <?= CONF_SITE_NAME ?></strong></p>
             <div class="row">
                 <div class="col-lg-12 text-center mt--20 mt_sm--0">
 

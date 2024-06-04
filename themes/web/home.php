@@ -163,12 +163,15 @@
                 <div class="newsletter-content">
                     <span class="title-highlighter highlighter-primary2"><i class="fas fa-envelope-open"></i>Newsletter</span>
                     <h2 class="title mb--40 mb_sm--30">Saiba das novidades primeiro</h2>
-                    <div class="input-group newsletter-form">
-                        <div class="position-relative newsletter-inner mb--15">
-                            <input placeholder="email@provedor.com" type="text">
+                    <form action="<?= url("newsletter") ?>" method="post">
+                        <div id="alert-container-fixed"></div>
+                        <div class="input-group newsletter-form">
+                            <div class="position-relative newsletter-inner mb--15">
+                                <input placeholder="exemplo@gmail.com" type="text" name="email">
+                            </div>
+                            <button type="submit" class="axil-btn mb--15">Assinar</button>
                         </div>
-                        <button type="submit" class="axil-btn mb--15">Inscrever</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>

@@ -489,7 +489,7 @@ class Web extends Controller
                 $subject = "Cadastro confirmado!";
                 $body = $view->render("mail", [
                     "subject" => $subject,
-                    "message" => "<h3>Tudo certo, {$user->first_name}</h3><p><strong>Você concluiu o seu cadastro!</strong></p><p>Estamos ansiosos para ajudá-lo no controle de reservas!</p><p>No decorrer do uso pode contar conosco para qualquer eventualidade, esperamos que você tenha a melhor exeperiência com o " . CONF_SITE_NAME . ", ainda assim, caso prefira, pode responder a este e-mail ou então nos procurar nas redes sociais!</p><p>Estaremos sempre disponíveis!</p><p>Somos focados em proporcionar a melhor experiência com a máxima transparência possível e estaremos sempre dispostos a ajudá-lo nessa tarefa!</p><h3>Conte conosco!</h3>"
+                    "message" => "<h3>Tudo certo, {$user->first_name}</h3><p><strong>Você concluiu o seu cadastro!</strong></p><p>Lembre-se, você agora tem acesso à parte administrtoiva da LOJA.</p><p>No decorrer do uso pode contar conosco para qualquer eventualidade, esperamos que você tenha a melhor exeperiência com o " . CONF_SITE_NAME . ", ainda assim, caso prefira, pode responder a este e-mail ou então nos procurar nas redes sociais!</p><p>Estaremos sempre disponíveis!</p><p>Somos focados em proporcionar a melhor experiência com a máxima transparência possível e estaremos sempre dispostos a ajudá-lo nessa tarefa!</p><h3>Conte conosco!</h3>"
                 ]);
                 $email->bootstrap($subject, $body, $user->email, "{$user->first_name} {$user->last_name}")->send();
 

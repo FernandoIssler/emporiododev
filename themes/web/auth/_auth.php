@@ -93,6 +93,7 @@
                         <span class="app-brand-text demo h3 mb-0 fw-bold"></span>
                     </a>
                 </div>
+                <p class="text-danger">Todo o painel de usuário será acessado como <b>administrador</b>.</p>
                 <!-- /Logo -->
                 <?= $this->section("content"); ?>
             </div>

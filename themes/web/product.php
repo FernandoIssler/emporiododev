@@ -71,9 +71,8 @@
                 <div class="col-sm-12">
                     <div class="header-top-link">
                         <ul class="quick-link">
-                            <li><a href="#">Ajuda</a></li>
-                            <li><a href="sign-up.html">Entrar</a></li>
-                            <li><a href="sign-in.html">Cadastrar</a></li>
+                            <li><a href="<?= url("entrar") ?>">Entrar</a></li>
+                            <li><a href="<?= url("cadastrar") ?>">Cadastrar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -131,6 +130,8 @@
                                     <li><i class="fal fa-check"></i>Entrega grátis</li>
                                 </ul>
                                 <p class="description"><?= $product->description ?></p>
+
+                                <p class="text-danger small">As funcionalidades abaixo não estão implementadas.</p>
 
                                 <!-- Start Product Action Wrapper  -->
                                 <div class="product-action-wrapper d-flex-center">

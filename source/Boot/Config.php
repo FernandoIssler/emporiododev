@@ -10,7 +10,7 @@ const CONF_DB_TEST = ["host" => "localhost", "user" => "root", "pass" => "", "da
 /**
  * PROJECT URLs
  */
-const CONF_URL_BASE = "https://www.isslerweb.com.br/emporiododev/";
+const CONF_URL_BASE = "https://www.isslerweb.com.br/emporiododev";
 const CONF_URL_TEST = "http://www.localhost/emporiododev";
 
 /**
